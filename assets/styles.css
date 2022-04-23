@@ -13,8 +13,8 @@ body {
     height: 90vmin;
     border-style: solid;
     border-color: black;
-    border-width: 1px;
-    border-radius: 2px;
+    border-width: 2px;
+    border-radius: 5px;
 }
 
 .pixel {
@@ -38,4 +38,12 @@ body {
 }
 #green {
     color: green;
+}
+
+.clear-button {
+    border-left: solid rgb(120, 198, 244);
+
+    padding: 5px;
+    background-Color: rgb(166, 234, 227);
+    width:75%;
 }

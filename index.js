@@ -5,6 +5,8 @@ let redColor = document.querySelector('#red')
 let yellowColor = document.querySelector('#yellow')
 let greenColor = document.querySelector('#green')
 
+
+
 blueColor.addEventListener('click', function(){
     selectedColor = 'blue'
 })
@@ -21,3 +23,7 @@ greenColor.addEventListener('click', function(){
 painting.addEventListener('click', function(e){
     e.target.style.backgroundColor = selectedColor
 })
+painting.addEventListener('dblclick', function(e){
+    e.target.style.backgroundColor = 'white'
+})
+
